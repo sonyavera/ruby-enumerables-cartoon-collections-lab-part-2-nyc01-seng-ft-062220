@@ -16,7 +16,8 @@ end
 
 def long_planeteer_calls(planeteer_calls)
   planeteer_calls.collect do |element|
-    if element.length > 4
+    element = element.length
+    if element.any? > 4
       return true
     end
     if element.all? < 4
