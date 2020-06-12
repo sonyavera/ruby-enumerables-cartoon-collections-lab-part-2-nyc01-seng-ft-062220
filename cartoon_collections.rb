@@ -1,5 +1,5 @@
 def square_array(array)
-  array.collect |element| do
+  array.collect do |element| 
     element**2
 end    
     # Use an Enumerable to square every element in the passed in array
