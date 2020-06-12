@@ -28,4 +28,3 @@ def find_valid_calls(planeteer_calls)
   i == valid_calls[0] || i == valid_calls[1] || i == valid_calls[2] || i == valid_calls[3] || i == valid_calls[4]
   end
 end
-end
